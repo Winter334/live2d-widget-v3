@@ -30,7 +30,7 @@
 	position: fixed;
 	transform: translateY(3px);
 	transition: transform .3s ease-in-out, bottom 3s ease-in-out;
-	z-index: 1;
+	z-index: 5;
 }
 
 #waifu:hover {
@@ -81,16 +81,12 @@
 	color: #aaa;
 	opacity: 0;
 	position: absolute;
-	right: 15px;
-	top: 55px;
+	right: -10px;
+	top: 70px;
 	transition: opacity 1s;
 }
 
-#live2d:hover +#waifu-tool {
-	opacity: 1;
-}
-
-#waifu-tool:hover {
+#waifu:hover #waifu-tool {
 	opacity: 1;
 }
 
