@@ -30,10 +30,10 @@
     "selector": ".menu .item a[href='/about/']",
     "text": ["你想知道我家主人是谁吗？", "这里有一些关于我家主人的秘密哦，要不要看看呢？", "发现主人出没地点！"]
   }, {
-    "selector": ".menu .item a[href='/tags/']",
+    "selector": "#nav .menu .item a[href='/tags/']",
     "text": ["点击就可以看文章的标签啦！", "点击来查看所有标签哦。"]
   }, {
-    "selector": ".menu .item a[href='/categories/']",
+    "selector": "#nav .menu .item a[href='/categories/']",
     "text": ["文章都分类好啦～", "点击来查看文章分类哦。"]
   }, {
     "selector": ".menu .item a[href='/archives/']",
